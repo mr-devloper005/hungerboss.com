@@ -21,16 +21,14 @@ export const globalContent = {
     },
   },
   footer: {
-    tagline: 'Stories, resources, and discoverable posts',
-    description: 'A connected publishing surface for articles, visuals, listings, profiles, bookmarks, and downloadable resources.',
+    tagline: 'A local directory and a reference library',
+    description: 'A local directory of businesses near you paired with a reference library of download-ready guides, reports, and references — searchable and cross-linked in one place.',
     columns: [
       {
-        title: 'Explore',
+        title: 'Discover',
         links: [
-          { label: 'Articles', href: '/articles' },
-          { label: 'Listings', href: '/listings' },
-          { label: 'Images', href: '/image-sharing' },
-          { label: 'PDF Library', href: '/pdf' },
+          { label: 'Local Directory', href: '/listing' },
+          { label: 'Reference Library', href: '/pdf' },
         ],
       },
       {
@@ -41,7 +39,7 @@ export const globalContent = {
         ],
       },
     ],
-    bottomNote: 'Built for clean discovery and connected publishing.',
+    bottomNote: 'Directory + reference library',
   },
   commonLabels: {
     readMore: 'Read more',
